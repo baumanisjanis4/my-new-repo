@@ -1,7 +1,7 @@
 export {};
 
 const helloWorld = function() {
-  return "";
+  return "helloWorld";
 };
 
-console.log(); // Expected output: "Hello World"
+console.log(helloWorld); // Expected output: "Hello World"
