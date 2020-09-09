@@ -8,7 +8,11 @@ export {};
  */
 
 // You are allowed to edit only this function
-function remove(arr, valueToRemove) {}
+function remove(arr: any[], valueToRemove: string | number) {
+    return arr.filter(function(names){
+return names != 2, 'Ellen' ) } 
+    }
+
 
 const numbers = [1, 2, 3];
 const names = ["John", "Alice", "Ellen"];
